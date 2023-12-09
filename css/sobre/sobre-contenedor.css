@@ -1,0 +1,27 @@
+.sobre__contenedor{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-top:5rem ;
+    padding-bottom:5rem ;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .sobre__contenedor{
+        display: flex;
+        width: 80%;
+        align-self: center;
+        padding-top:5rem ;
+        padding-bottom:5rem ;
+        margin-left: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .sobre__contenedor{
+        
+        margin-left: 0;
+        justify-self: center;
+    }
+  }

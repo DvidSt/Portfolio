@@ -1,0 +1,13 @@
+.sobre__mi{
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .sobre__mi{
+        font-size: 2rem;
+    
+       
+    }
+  }

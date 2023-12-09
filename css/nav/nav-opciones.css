@@ -1,0 +1,16 @@
+.nav__opciones{
+    display: flex;
+}
+@media screen and (max-width: 1024px) {
+    .nav__opciones{
+        width: 100%;
+        justify-content: space-around;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav__opciones{
+        flex-direction: column;
+        display: none;
+    }
+  }

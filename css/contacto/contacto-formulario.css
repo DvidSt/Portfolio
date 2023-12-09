@@ -1,0 +1,22 @@
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+    margin: 0 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto__formulario{
+        width: 60%;
+        margin: 0 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contacto__formulario{
+        width: 60%;
+        margin: 0%;
+    }
+  }

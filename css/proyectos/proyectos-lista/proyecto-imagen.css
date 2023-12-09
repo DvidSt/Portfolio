@@ -1,0 +1,16 @@
+.proyecto__imagen{
+    width: 40%;
+    margin: 0 10%;
+}
+
+.proyecto__imagen:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .proyecto__imagen{
+        width: auto;
+        margin: 0 10%;
+    }
+  }

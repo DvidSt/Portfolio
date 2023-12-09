@@ -1,0 +1,5 @@
+.proyectos__lista{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,10 @@
+.opciones__lista{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .opciones__lista{
+        flex-direction: column;
+        align-items: center;
+    }
+  }

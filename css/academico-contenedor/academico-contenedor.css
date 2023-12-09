@@ -1,0 +1,13 @@
+.academico__contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .academico__contenedor{
+        align-items: center;
+      
+    }
+  }

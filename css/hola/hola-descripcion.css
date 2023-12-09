@@ -1,0 +1,6 @@
+.hola__descripcion{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+}

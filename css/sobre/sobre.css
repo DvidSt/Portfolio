@@ -1,0 +1,10 @@
+.sobre{
+    background-color: #52796F;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre{
+        display: grid;
+    }
+  }

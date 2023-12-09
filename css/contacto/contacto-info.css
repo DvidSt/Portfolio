@@ -1,0 +1,15 @@
+.contacto__info{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto__info{
+        font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contacto__info{
+        font-size: 1rem;
+    }
+  }

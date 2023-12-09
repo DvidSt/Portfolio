@@ -1,0 +1,21 @@
+.nav__container__img{
+    display: block;
+    width: 1.7rem;
+    margin-top:  .4rem;
+    margin-right: 1rem;
+
+}
+
+.nav__container__img:hover{
+    animation: vuelta 2s linear infinite;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__container__img{
+        display: block;
+        width: 1.5rem;
+        margin-top:  .4rem;
+        margin-right: 1rem;
+    
+    }
+  }

@@ -1,0 +1,26 @@
+.nav__head{
+    display: flex;
+    background-color: #9fa0c3;
+    color: aliceblue;
+    justify-content: space-around;
+    height: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__head{
+   
+        flex-direction: column;
+        background-color: #9fa0c3;
+        color: aliceblue;
+        justify-content: space-around;
+        align-items: center;
+        height: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav__head{
+        height: auto;
+        padding: 1rem;
+    }
+  }

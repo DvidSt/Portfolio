@@ -1,0 +1,10 @@
+.descripcion__lista{
+    display: flex;
+ 
+}
+
+@media screen and (max-width: 768px) {
+    .lista{
+        flex-direction: column;
+    }
+  }

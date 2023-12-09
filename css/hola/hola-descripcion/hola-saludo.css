@@ -1,0 +1,11 @@
+.descripcion__saludo{
+    font-size: 4.2rem;
+    padding-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .descripcion__saludo{
+        font-size: 2.5rem;
+        
+    }
+  }

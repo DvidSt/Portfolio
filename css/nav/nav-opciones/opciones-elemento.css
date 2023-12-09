@@ -1,0 +1,11 @@
+.opciones__elemento{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .opciones__elemento{
+       font-size: 1rem;
+       margin-right: 1rem;
+    }
+  }

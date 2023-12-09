@@ -1,0 +1,16 @@
+.skill_hoby__elemento{
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    height: 11rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+
+
+
+  

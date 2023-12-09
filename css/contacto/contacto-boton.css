@@ -1,0 +1,33 @@
+.contacto__boton{
+    width: 40%;
+    align-self: center;
+    margin-left: 2rem;
+    height: 4rem;
+    background-color: #F4F1DE;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.contacto__boton:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto__boton{
+    
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .contacto__boton{
+    
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+        width: auto;
+    }
+  }

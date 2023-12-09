@@ -1,0 +1,29 @@
+.academico__elemento{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .academico__elemento{
+        justify-content: end;
+        align-items: center;
+        flex-direction: row;
+        width: 12rem;
+        padding-bottom: 5rem;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+   
+    .academico__elemento{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+        width: 12rem;
+        padding-bottom: 5rem;
+    }
+  }

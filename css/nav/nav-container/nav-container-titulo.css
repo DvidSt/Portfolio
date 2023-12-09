@@ -1,0 +1,11 @@
+.nav__container__titulo{
+    display: flex;
+    align-self: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__container__titulo{
+        font-size: 1.8rem;
+    }
+  }

@@ -1,0 +1,20 @@
+.proyecto__elemento{
+    display: flex;
+
+}
+
+.proyecto__elemento:nth-child(odd) {
+   
+    flex-direction: row-reverse;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .proyecto__elemento{
+
+        flex-direction: column;
+    }
+    .proyecto__elemento:nth-child(odd) {
+   
+        flex-direction: column;
+      }
+  }
